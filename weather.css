@@ -1,0 +1,61 @@
+body{
+  background-image: url("wea.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#wea{
+  border: none;
+  border-radius: 10px;
+  width: 500px;
+  text-align: center;
+  margin-left: 400px;
+  margin-top: 100px;
+  background-image: url("sunny.gif");
+  background-size: cover;
+  position: relative;
+  height: 500px;
+}
+#a1,#a2{
+  width: 60px;
+  height: 60px;
+}
+#sb{
+  margin-top: 40px;
+   font-size: 180%;
+   border-bottom-left-radius: 20px;
+   border-top-left-radius: 20px;
+   text-align: right;
+}
+#se{
+  margin-top: 40px;
+  font-size: 180%;
+  border-bottom-right-radius: 20px;
+  border-top-right-radius: 20px;
+  background-color: black;
+  color: white;
+}
+#city{
+  font-size: 250%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: firebrick;
+}
+#tmp{
+  font-size: 280%;
+  color: cyan;
+}
+#typ{
+  font-size: 280%;
+  color: sienna;
+}
+#hum{
+   position: absolute;
+   bottom: 6%;
+   left: 8%;
+   color: maroon;
+}
+#win{
+  position: absolute;
+  bottom: 6%;
+  right: 8%;
+  color: lightseagreen;
+}
